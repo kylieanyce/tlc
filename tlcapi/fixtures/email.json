@@ -1,0 +1,53 @@
+[
+    {
+        "model": "tlcapi.email",
+        "pk": 1,
+        "fields": {
+            "name": "Bobbie",
+            "email": "bobbie@gmail.com",
+            "phone_number": "432.432.5643",
+            "message": "I'm interested in a design and some pots, love mixtures of green and blue!",
+            "design": true,
+            "installation": false,
+            "maintenance": false,
+            "hardscaping": false,
+            "sod": false,
+            "leaf_removal": false,
+            "pots": true 
+        }
+    },
+    {
+        "model": "tlcapi.email",
+        "pk": 2,
+        "fields": {
+            "name": "Peter",
+            "email": "peter@gmail.com",
+            "phone_number": "666-666-6666",
+            "message": "I have a design but need installation",
+            "design": false,
+            "installation": true,
+            "maintenance": false,
+            "hardscaping": false,
+            "sod": true,
+            "leaf_removal": false,
+            "pots": false 
+        }
+    },
+    {
+        "model": "tlcapi.email",
+        "pk": 3,
+        "fields": {
+            "name": "Suzanne",
+            "email": "suzy@gmail.com",
+            "phone_number": "8888888888",
+            "message": "Please need leaf removal asap!!",
+            "design": false,
+            "installation": false,
+            "maintenance": false,
+            "hardscaping": false,
+            "sod": false,
+            "leaf_removal": true,
+            "pots": false 
+        }
+    }
+]
